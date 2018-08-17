@@ -5,9 +5,8 @@ class Room{
 		this.occupant = null; //a customer
 		this.hotel = currentHotel;
 	}
-	addOccupant( customer ){
+	addOccupant( customer )
 
-	}
 	removeOccupant(){
 
 	}
