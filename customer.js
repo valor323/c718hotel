@@ -1,8 +1,8 @@
 
 
 class Customer{
-	constructor( name ){
-		this.name = name;
+	constructor( occupentsName ){
+		this.name = occupentsName;
 		this.room = null; //room we are currently
 		this.isHungry = false;
 	}
