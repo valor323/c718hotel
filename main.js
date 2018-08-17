@@ -1,0 +1,3 @@
+
+
+var marriot = new Hotel();
