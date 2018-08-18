@@ -5,7 +5,7 @@ class Customer{
 		this.name = occupentsName;
 		this.room = null; //room we are currently
 		this.isHungry = false;
-		setInterval(this.checkIfHungry(),1000);
+		setInterval(this.checkIfHungry(),10000);
 	}
 	checkIfHungry(){
 		var random = Math.random();
@@ -26,4 +26,3 @@ class Customer{
 }
 
 var fido = new Customer('Fido');
-
